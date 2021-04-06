@@ -1,4 +1,4 @@
-# Pewlett Hackard Database
+# Employee Database: Pewlett Hackard
 
 Data Engineering in SQL with Analysis in Python
 
