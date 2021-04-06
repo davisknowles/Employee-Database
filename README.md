@@ -1,4 +1,7 @@
-# SQL-challenge
+# Employee Database
+
+Data Engineering in SQL with Analysis in Python
+
 
 ## Objective
 
