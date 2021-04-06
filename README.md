@@ -45,7 +45,8 @@ Data Analysis:
 - SQL
 - Python
 - Pandas
-
+- SQL Alchemy
+- PostgreSQL
 
 
 Email: dknowles52@gmail.com
