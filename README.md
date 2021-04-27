@@ -23,9 +23,10 @@ Data Engineering:
 - Import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
 
 <img width="525" alt="Screen Shot 2021-04-27 at 9 09 15 AM" src="https://user-images.githubusercontent.com/47284467/116247928-566eab80-a739-11eb-8d42-e357a0b53a53.png">
+<img width="794" alt="Screen Shot 2021-04-27 at 9 19 38 AM" src="https://user-images.githubusercontent.com/47284467/116249789-27593980-a73b-11eb-926e-185c84412572.png">
 <img width="507" alt="Screen Shot 2021-04-27 at 9 09 48 AM" src="https://user-images.githubusercontent.com/47284467/116247942-5a9ac900-a739-11eb-8503-22c43f2446ca.png">
-
 <img width="910" alt="Screen Shot 2021-04-27 at 9 27 52 AM" src="https://user-images.githubusercontent.com/47284467/116249509-e5c88e80-a73a-11eb-8371-5898b7519285.png">
+
 Data Analysis:
 - List the following details of each employee: employee number, last name, first name, sex, and salary.
 - List first name, last name, and hire date for employees who were hired in 1986.
