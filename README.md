@@ -7,9 +7,9 @@ Data Engineering in SQL with Analysis in Python
 
 - Research employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
 - Design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. 
-- In other words, you will perform:
-1. Data Engineering
-2. Data Analysis
+- In other words, perform:
+1. Data Engineering using SQL and Postgres
+2. Data Analysis using Python 
 
 Note: Data Engineering is the more modern wording instead of Data Modeling.
 
@@ -22,6 +22,10 @@ Data Engineering:
 - Import each CSV file into the corresponding SQL table. 
 - Import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
 
+<img width="525" alt="Screen Shot 2021-04-27 at 9 09 15 AM" src="https://user-images.githubusercontent.com/47284467/116247928-566eab80-a739-11eb-8d42-e357a0b53a53.png">
+<img width="507" alt="Screen Shot 2021-04-27 at 9 09 48 AM" src="https://user-images.githubusercontent.com/47284467/116247942-5a9ac900-a739-11eb-8503-22c43f2446ca.png">
+
+
 Data Analysis:
 - List the following details of each employee: employee number, last name, first name, sex, and salary.
 - List first name, last name, and hire date for employees who were hired in 1986.
@@ -31,13 +35,7 @@ Data Analysis:
 - List all employees in the Sales department, including their employee number, last name, first name, and department name.
 - List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 - In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
-- Import the SQL database into Pandas using this code:
-
-   ```sql
-   from sqlalchemy import create_engine
-   engine = create_engine('postgresql://localhost:5432/<your_db_name>')
-   connection = engine.connect()
-   ```
+- Import the SQL database into Pandas DF
 - Create a histogram to visualize the most common salary ranges for employees.
 - Create a bar chart of average salary by title.
 
